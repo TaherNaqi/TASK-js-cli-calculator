@@ -1,8 +1,15 @@
 const prompt = require("prompt-sync")(); // Please don't touch me :)
+
+//While loop to keep calculating
+
 while (true) {
   // The prompt method allows us to take an input from the user.
   // Run the code to see how to use prompt.
+
+  //Type # to get out of the loop repeated on every prompt command
+
   var number1 = prompt("Type the first number: ");
+
   if (number1 == "#") {
     break;
   }
